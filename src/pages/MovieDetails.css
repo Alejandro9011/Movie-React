@@ -1,0 +1,94 @@
+.imagtext {
+  display: flex;
+  margin-left: 41rem;
+  gap: 5px;
+  position: absolute;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.imgdetail {
+  width: 430px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.secondchild {
+  margin-left: 580px;
+  position: relative;
+}
+.calification {
+  color: brown;
+}
+.p-overview {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 40%;
+}
+.p-average {
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+}
+.close-button {
+  background-color: rgba(175, 0, 0, 0.535);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: red;
+}
+.titl {
+  color: white;
+}
+.p-realase {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .imagtext {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .secondchild {
+    position: relative;
+    margin: 0 auto;
+  }
+  .close-button {
+    height: 40px;
+    font-size: 10px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .p-overview {
+    font-size: 20;
+    width: 100%;
+  }
+
+  .p-texto {
+    font-size: 20px;
+    width: 80%;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .reproductor {
+    width: 50%;
+  }
+}
+
+/* Estilos para el efecto hover */

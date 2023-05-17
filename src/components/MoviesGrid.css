@@ -1,0 +1,24 @@
+.cartsfilms {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 330px);
+  padding: 40px;
+  /* grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(4, 1fr);*/
+}
+
+.images:hover {
+  opacity: 0.3;
+}
+
+.divbanner {
+  background-size: contain;
+  background-position: center;
+  height: 500px;
+}
+
+@media (max-width: 560px) {
+  .cartsfilms {
+    grid-template-columns: 60%;
+  }
+}
